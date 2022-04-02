@@ -1,0 +1,20 @@
+#pragma once
+#include <ruby.h>
+
+typedef nt_type_t uint8_t;
+
+const nt_type BOOLEAN_TYPE 0x00
+const nt_type DOUBLE_TYPE 0x01
+const nt_type STRING_TYPE 0x02
+const nt_type RAW_TYPE 0x03
+const nt_type BOOLEAN_ARRAY_TYPE 0x10
+const nt_type DOUBLE_ARRAY_TYPE 0x11
+const nt_type STRING_ARRAY_TYPE 0x12
+
+const VALUE RB_BOOLEAN_TYPE INT2NUM(0x00)
+const VALUE RB_DOUBLE_TYPE INT2NUM(0x01)
+const VALUE RB_STRING_TYPE INT2NUM(0x02)
+const VALUE RB_RAW_TYPE INT2NUM(0x03)
+const VALUE RB_BOOLEAN_ARRAY_TYPE INT2NUM(0x10)
+const VALUE RB_DOUBLE_ARRAY_TYPE INT2NUM(0x11)
+const VALUE RB_STRING_ARRAY_TYPE INT2NUM(0x12)
